@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital@0;1&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./dist/css/style.min.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="card">
+      <div class="header">
+        <p class="card__result">Your Result</p>
+        <div class="card__circle">
+          <p class="card__score">76</p>
+          <p class="card__ofScore">of 100</p>
+        </div>
+        <p class="card__rating">Great</p>
+        <p class="card__text">Your performance exceed 65% of the people conducting the test here!</p>
+      </div>
+      <div class="summary">
+        <p class="card__summary">Summary</p>
+        <div class="card__items">
+          <div class="card__item card__reaction">
+            <div class="left">
+              <img src="./dist/img/icon-reaction.svg" alt="thunder icon">
+              <p class="title">Reaction</p>
+            </div>
+            <div class="right">
+              <span class="reaction score">??</span>
+              <p> / 100</p>
+            </div>
+          </div>
+          <div class="card__item card__memory">
+            <div class="left">
+              <img src="./dist/img/icon-memory.svg" alt="brain icon">
+              <p class="title">Memory</p>
+            </div>
+            <div class="right">
+              <span class="memory score">??</span>
+              <p> / 100</p>
+            </div>
+          </div>
+          <div class="card__item card__verbal">
+            <div class="left">
+              <img src="./dist/img/icon-verbal.svg" alt="chat icon">
+              <p class="title">Verbal</p>
+            </div>
+            <div class="right">
+              <span class="verbal score">??</span>
+              <p> / 100</p>
+            </div>
+          </div>
+          <div class="card__item card__visual">
+            <div class="left">
+              <img src="./dist/img/icon-visual.svg" alt="eye icon">
+              <p class="title">Visual</p>
+            </div>
+            <div class="right">
+              <span class="visual score">??</span>
+              <p> / 100</p>
+            </div>
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
+  </main>
+  <script src="./dist/js/script.min.js"></script>
+</body>
+
+</html>
